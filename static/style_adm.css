@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: url('/static/wallpaper-paris.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#admin-panel {
+    background-color: white;
+    width: 80%;
+    opacity: 90%;
+    margin: auto;
+    margin-top: 80px;
+    border-top: 30px solid black;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#admin-title {
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+    padding-top: 20px;
+    padding: 10px;
+}
+
+#Table {
+    width: 100%;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.theader {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.Th {
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+}

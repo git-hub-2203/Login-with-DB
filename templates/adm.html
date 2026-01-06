@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style_adm.css">
+    <title>Adm´s page</title>
+</head>
+<body>
+    <div id="admin-panel">
+        <h1 id="admin-title">Admin Panel</h1>
+        <table id="Table">
+            <tr>
+                <th class="Th">Name</th>
+                <th class="Th">Email</th>
+                <th class="Th">Country</th>
+            </tr>
+            {% for entry in info %}
+            <tr>
+                <td class="theader">{{ entry.name }}</td>
+                <td class="theader">{{ entry.email }}</td>
+                <td class="theader">{{ entry.country }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+</html>
